@@ -1,0 +1,63 @@
+body{margin:0; padding: 0;}
+
+.container{
+    width:100vw;
+    height:100vh;
+    display:grid;
+    grid-template-columns: 15% 85%;
+}
+
+nav{
+    grid-column: 1;
+    background: blue;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-photo{
+    width: 100%;
+    height:20%;
+    background: green;
+
+}
+
+.nav-home{
+    width: 100%;
+    height:10%;
+    background: pink;
+
+}
+
+.nav-portfolio{
+    width: 100%;
+    height:10%;
+    background: aqua;
+
+}
+
+.nav-about{
+    width: 100%;
+    height:10%;
+    background: orangered;
+
+}
+
+.nav-contact{
+    width: 100%;
+    height:10%;
+    background: peru;
+
+}
+
+main{
+    grid-column:2;
+    background: white;
+    padding: 50px;
+}
+
+.content{
+    width:100%;
+    height:100%;
+    background: red;    
+}
