@@ -107,15 +107,13 @@ main{
 
 .content-title{
     text-align: center;
-    font-size:35px;
+    font-size:40px;
 }
 
 .content2{
-    width:80%;
+    width:85%;
     height:500px;
     margin: 0 auto;
     border:1px dotted black;
-    display:grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
 }
+
