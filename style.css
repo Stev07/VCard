@@ -18,6 +18,10 @@ nav a{
     text-decoration: none;
     color:black;
 }
+
+nav a:hover{
+    text-decoration: underline; 
+}
 .nav-item{
     display:grid;
     grid-template-columns:30% 70%;
@@ -99,4 +103,19 @@ main{
     width: 3px;
     background: blue;
     float:left;
+}
+
+.content-title{
+    text-align: center;
+    font-size:35px;
+}
+
+.content2{
+    width:80%;
+    height:500px;
+    margin: 0 auto;
+    border:1px dotted black;
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
 }
