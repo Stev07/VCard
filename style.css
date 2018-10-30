@@ -9,44 +9,63 @@ body{margin:0; padding: 0;}
 
 nav{
     grid-column: 1;
-    background: blue;
     display:flex;
     flex-direction: column;
     align-items: center;
 }
 
+nav a{
+    text-decoration: none;
+    color:black;
+}
+.nav-item{
+    display:grid;
+    grid-template-columns:30% 70%;
+    align-items: center;
+}
+
+.nav-logo{
+    grid-column: 1;
+    width:40px;
+    margin-left: 5px;
+}
 .nav-photo{
     width: 100%;
     height:20%;
-    background: green;
-
+    border-bottom:1px solid blue;
+    text-align: center;
+}
+.nav-photo img{
+    height:100%;
 }
 
 .nav-home{
     width: 100%;
     height:10%;
-    background: pink;
-
+    border-bottom:1px solid blue;
+    text-align: center;
 }
 
 .nav-portfolio{
     width: 100%;
     height:10%;
-    background: aqua;
+    border:1px solid blue;
+    text-align: center;
 
 }
 
 .nav-about{
     width: 100%;
     height:10%;
-    background: orangered;
+    text-align: center;
 
 }
 
 .nav-contact{
     width: 100%;
     height:10%;
-    background: peru;
+    border-bottom:1px solid blue;
+    text-align: center;
 
 }
 
@@ -59,5 +78,25 @@ main{
 .content{
     width:100%;
     height:100%;
-    background: red;    
+
+}
+
+.content-rightbar{
+    height: 70%;
+    width: 3px;
+    background: blue;
+    float:right;
+}
+
+.content-topbar{
+    height: 3px;
+    width: 25%;
+    background: blue;
+}
+
+.content-leftbar{
+    height: 25%;
+    width: 3px;
+    background: blue;
+    float:left;
 }
