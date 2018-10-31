@@ -1,0 +1,48 @@
+.content2{
+    display:grid;
+    grid-template-columns: 40% 60%;
+}
+
+.photo{
+    grid-column: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo img{
+    width:250px;
+}
+
+.content2-infos{
+    grid-column: 2;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 50px auto ;
+    text-align: center;
+}
+
+.name{
+    grid-column: 1/3;
+    grid-row:1;
+}
+
+.job{
+    grid-column:1/3;
+    grid-row:2;
+}
+
+.becode{color:#0A90E8;
+        font-size:1.3em;}
+
+.about{
+    margin-top:20%;
+    margin-left:40px;
+    grid-column:1/3;
+    text-align:justify;
+    line-height: 30px;
+}
+
+.about-title{
+    font-size: 1.3em;
+    margin-right:10px;
+}
